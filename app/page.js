@@ -1,4 +1,7 @@
+import Hero from '@/components/Hero';
+import Highlights from '@/components/Highlights';
 import Navbar from '@/components/Navbar';
+
 import Image from 'next/image';
 
 export default function Home() {
@@ -7,7 +10,9 @@ export default function Home() {
       {/* Nav */}
       <Navbar />
       {/* Hero */}
+      <Hero />
       {/* Highlights */}
+      <Highlights />
       {/* Model */}
     </main>
   );
